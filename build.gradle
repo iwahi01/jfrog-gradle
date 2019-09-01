@@ -74,6 +74,7 @@ artifactory {
             
         }
     }
+    clientConfig.setIncludeEnvVars(true)
     //clientConfig.info.setBuildName('Gradle Artifactoryプラグイン(Eclipse連携)')
     //clientConfig.info.setBuildNumber('' + new java.util.Random(System.currentTimeMillis()).nextInt(20000))
 }
