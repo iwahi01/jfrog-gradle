@@ -52,7 +52,7 @@ allprojects {
 artifactory {
     contextUrl = "${artifactory_contextUrl}"   //The base Artifactory URL if not overridden by the publisher/resolver
     //println "version=" + version
-    String repo = version.endsWith('-SNAPSHOT') ? 'gradle-snapshot-local' : 'gradle-release-local' 
+    String repo = version.endsWith('-SNAPSHOT') ? 'gradle-dev-local' : 'gradle-release-local' 
     publish {
         repository {
             repoKey = repo
