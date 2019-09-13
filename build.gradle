@@ -45,7 +45,7 @@ repositories {
 
 allprojects {
     apply plugin: "com.jfrog.artifactory"
-    group = 'iwashita.example'
+    group = 'iwashita/example'
 	version = currentVersion
 }
 
